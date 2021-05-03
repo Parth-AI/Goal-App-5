@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Goal App",
+    "slug": "goal-app",
+    "privacy": "public",
+    "androidStatusBar": {
+      "backgroundColor": "#C2185B",
+      "translucent": false
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon2.png",
+    "splash": {
+      "image": "./assets/icon2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#242c40"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.parth.coder.goalapp",
+      "useNextNotificationsApi": true
+    }
+  }
+}
